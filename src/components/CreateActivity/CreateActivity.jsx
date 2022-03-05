@@ -19,7 +19,6 @@ function formValidate(a) {
 }
 
 export default function CreateActivity() {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
   const allCountries = useSelector((s) => s.countries);
 
